@@ -1,0 +1,24 @@
+name: shimmer_demo
+description: A Flutter demo app showing different shimmer loading effects
+publish_to: "none" # vì đây là project demo, không publish lên pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shimmer: ^3.0.0   
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
